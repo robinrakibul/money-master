@@ -1,3 +1,4 @@
+/* Primary Styles */
 .medium-roboto{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;   
@@ -13,7 +14,18 @@
 .focus-color{
     background-color: #DCDCDC;
 }
+button{
+    background-color: #59A5FF;
+    border: 0px;
+    color: white;
+    padding: 8px 30px;
+}
 
+/* Right Card styles */
 .card{
     background-color: rgba(248, 248, 248, 1);
+}
+
+.save-money-input{
+   width: 20%;
 }

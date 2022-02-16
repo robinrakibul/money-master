@@ -26,29 +26,32 @@
     <main>
         <div class="d-flex mt-5 mb-5 flex-row justify-content-around align-content-between">
             <div>
-                <img class="rounded-3" src="images/moneycalc.jpg" alt="">
+                <img class="rounded-3" width="500px" src="images/moneycalc.jpg" alt="">
             </div>
             <div class="card border-0 rounded-1 w-50">
                 <div class="income">
-                    <p class="medium-roboto text-center mt-5 mb-4">Income</p>
+                    <p class="medium-roboto text-center mt-5">Income</p>
                    <div class="input-group d-flex justify-content-center align-items-center">
                     <p class="font-monospace pe-3">Income: <input type="number" min="0" class="form-control text-center focus-color w-75 d-inline" value=""></p> 
                    </div>
                 </div>
                 <div class="expenses">
-                   <p class="medium-roboto mt-5 mb-4 text-center">Expenses</p>
+                   <p class="medium-roboto mt-3 mb-4 text-center">Expenses</p>
                    <div class="input-group d-flex flex-column justify-content-center align-items-center mb-4">
                         <div>
-                            <p class="font-monospace">Food: <input type="number" min="0" class="d-inline form-control focus-color w-75" value=""></p>
+                            <p class="font-monospace">Food: </p>
+                            <input type="number" min="0" class="form-control focus-color w-75" value="">
                         </div>
                         <div>
-                            <p class="font-monospace">Rent: <input type="number" min="0" class="d-inline form-control focus-color w-75" value=""></p>
+                            <p class="font-monospace">Rent: </p>
+                            <input type="number" min="0" class="form-control focus-color w-75" value="">
                         </div>
                         <div class="mb-4">
-                            <p class="font-monospace">Cloth: <input type="number" min="0" class="d-inline form-control focus-color w-75" value=""></p>
+                            <p class="font-monospace">Clothes: </p>
+                            <input type="number" min="0" class="form-control focus-color w-75" value="">
                         </div>
                         <div class="submit-btn">
-                            <button type="button" class="btn btn-primary rounded-3">Primary</button>
+                            <button type="button" class="rounded-3">Primary</button>
                         </div>
                    </div>
                    <div class="total-class d-flex flex-column justify-content-center align-items-center">
@@ -60,6 +63,18 @@
                        </div>
                    </div>
                 </div>
+                <div class="save-money d-flex flex-column justify-content-center align-items-center">
+                    <div>
+                        <p class="ms-5 ps-5 mt-2 mb-3">Save:<input type="number" min="0" class="save-money-input d-inline form-control focus-color ms-4 me-2" value=""> % <button type="button" class="rounded-3 ms-2 me-2">Save</button></p>
+                    </div>
+                    <div>
+                        <p class="total-expenses medium-roboto mb-3">Total Expenses: <span>5500</span></p>
+                    </div>
+                    <div>
+                        <p class="total-balance medium-roboto mb-3">Total Balance: <span>5500</span></p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
