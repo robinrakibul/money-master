@@ -1,0 +1,16 @@
+.medium-roboto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;   
+}
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.header-title{
+    color: rgb(18, 21, 66);
+}
+
+.card{
+    background-color: rgba(248, 248, 248, 1);
+}
