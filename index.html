@@ -23,12 +23,44 @@
         <img class="pb-1" height="60px" width="60px" src="images/icon.png" alt="">
     </div>
     </header>
-    <main class="mt-5 mb-5 d-flex flex-row justify-content-around align-content-between">
-        <div>
-            <img class="rounded-3" src="images/moneycalc.jpg" alt="">
-        </div>
-        <div class="card w-50">
-           <p class="medium-roboto text-center mt-5 mb-2">Income</p>
+    <main>
+        <div class="d-flex mt-5 mb-5 flex-row justify-content-around align-content-between">
+            <div>
+                <img class="rounded-3" src="images/moneycalc.jpg" alt="">
+            </div>
+            <div class="card border-0 rounded-1 w-50">
+                <div class="income">
+                    <p class="medium-roboto text-center mt-5 mb-4">Income</p>
+                   <div class="input-group d-flex justify-content-center align-items-center">
+                    <p class="font-monospace pe-3">Income: <input type="number" min="0" class="form-control text-center focus-color w-75 d-inline" value=""></p> 
+                   </div>
+                </div>
+                <div class="expenses">
+                   <p class="medium-roboto mt-5 mb-4 text-center">Expenses</p>
+                   <div class="input-group d-flex flex-column justify-content-center align-items-center mb-4">
+                        <div>
+                            <p class="font-monospace">Food: <input type="number" min="0" class="d-inline form-control focus-color w-75" value=""></p>
+                        </div>
+                        <div>
+                            <p class="font-monospace">Rent: <input type="number" min="0" class="d-inline form-control focus-color w-75" value=""></p>
+                        </div>
+                        <div class="mb-4">
+                            <p class="font-monospace">Cloth: <input type="number" min="0" class="d-inline form-control focus-color w-75" value=""></p>
+                        </div>
+                        <div class="submit-btn">
+                            <button type="button" class="btn btn-primary rounded-3">Primary</button>
+                        </div>
+                   </div>
+                   <div class="total-class d-flex flex-column justify-content-center align-items-center">
+                       <div>
+                        <p class="total-expenses medium-roboto mb-3">Total Expenses: <span>5500</span></p>
+                       </div>
+                       <div>
+                        <p class="total-balance medium-roboto mb-3">Total Balance: <span>5500</span></p>
+                       </div>
+                   </div>
+                </div>
+            </div>
         </div>
     </main>
     <!-- <footer>

@@ -10,6 +10,9 @@
 .header-title{
     color: rgb(18, 21, 66);
 }
+.focus-color{
+    background-color: #DCDCDC;
+}
 
 .card{
     background-color: rgba(248, 248, 248, 1);
