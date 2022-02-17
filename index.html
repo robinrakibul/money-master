@@ -31,24 +31,26 @@
             <div class="card-right border-0 rounded-1 col-12 col-lg-9 mx-auto gap-5">
                 <div class="income">
                     <p class="medium-roboto text-center mt-5">Income</p>
-                   <div class="input-group d-flex justify-content-center align-items-center">
-                    <p class="font-monospace pe-3">Income: <input type="number" min="0" class="form-control text-center focus-color d-inline" value=""></p> 
+                   <div class="input-group d-flex flex-column justify-content-center align-items-center ">
+                    <div class="font-monospace mb-3">
+                            <label for="income" class="input-group gap-2">Income:<input type="number" min="0" class="form-control focus-color w-75" value=""></label>
+                        </div>
                    </div>
                 </div>
                 <div class="expenses">
                    <p class="medium-roboto mt-3 mb-4 text-center">Expenses</p>
                    <div class="input-group d-flex flex-column justify-content-center align-items-center mb-4">
                         <div class="font-monospace mb-3">
-                            <label for="food" class="input-group">Food:<input type="number" min="0" class="form-control focus-color w-75" value=""></label>
+                            <label for="food" class="input-group gap-2">Food:<input type="number" min="0" class="form-control focus-color w-75" value=""></label>
                         </div>
                         <div>
-                            <label for="rent" class="font-monospace input-group mb-3">Rent:<input type="number" min="0" class="form-control focus-color w-75" value=""></label>
+                            <label for="rent" class="font-monospace input-group gap-2 mb-3">Rent:<input type="number" min="0" class="form-control focus-color w-75" value=""></label>
                         </div>
                         <div class="mb-4">
-                            <label for="clothes" class="font-monospace input-group">Cloth:<input type="number" min="0" class="form-control focus-color w-75" value=""></label>
+                            <label for="clothes" class="font-monospace input-group gap-2">Cloth:<input type="number" min="0" class="form-control focus-color w-75" value=""></label>
                         </div>
                         <div class="submit-btn">
-                            <button type="button" class="rounded-3">Primary</button>
+                            <button type="button" class="rounded-3 font-monospace">Calculate</button>
                         </div>
                    </div>
                    <div class="total-class d-flex flex-column justify-content-center align-items-center">
@@ -62,7 +64,7 @@
                 </div>
                 <div class="save-money d-flex flex-column justify-content-center align-items-center">
                     <div>
-                        <p class="ms-5 ps-5 mt-2 mb-3">Save:<input type="number" min="0" class="save-money-input d-inline form-control focus-color ms-4 me-2" value=""> % <button type="button" class="rounded-3 ms-2 me-2">Save</button></p>
+                        <p class="ms-5 ps-5 mt-2 mb-3 font-monospace">Save:<input type="number" min="0" class="save-money-input d-inline form-control focus-color ms-2" value=""> % <button type="button" class="rounded-3 ms-2 me-2">Save</button></p>
                     </div>
                     <div>
                         <p class="total-expenses medium-roboto mb-3">Total Expenses: <span>5500</span></p>
