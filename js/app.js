@@ -69,9 +69,10 @@ const totalExpenses = parseFloat(foodAmount)+parseFloat(rentAmount)+parseFloat(c
 const balanceLeft = incomeAmount - totalExpenses;
 var savingsPercentage = document.getElementById('savings-percentage');
 var savingsPercentageFloat = parseFloat(savingsPercentage.value);
-var savingsAmount = incomeAmount*(savingsPercentageFloat/100);
+// Save % of income from your remaining balance
+var savingsAmount = parseFloat(incomeAmount*(savingsPercentageFloat/100));
     if(balanceLeft < savingsAmount){
-        alert('Enter valid amount, savings cannot be more than your income!');
+        alert('Saving amount is larger than your remaining balance. Enter a valid amount.');
     }
     else{
     document.getElementById('savings-amount').innerText = savingsAmount;
